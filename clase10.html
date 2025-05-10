@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 Doc</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <style>
+        td{
+            border: solid 1px blue;
+        }
+    </style>
+</head>
+<body>
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="clase14.html" class="nav-link active" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a href="clase12.html" class="nav-link">Servicios</a></li>
+          <li class="nav-item"><a href="clase11.html" class="nav-link">Precios</a></li>
+          <li class="nav-item"><a href="clase10.html" class="nav-link">Preguntas frecuentes</a></li>
+          <li class="nav-item"><a href="clase09.html" class="nav-link">Acerca de</a></li>
+        </ul>
+      </header>
+    <h1>Trabajando con tablas</h1>
+    <p></p>
+    <table>
+        <tr >
+            <td >Fila 1 columna 1</td>
+            <td colspan="3">Fila1 columna 2, 3 y 4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Fila 2 y 3  columna1</td>
+            <td >Fila2 columna2</td>
+            <td >Fila2 columna3</td>
+            <td style="border: solid 1px black;">Fila2 columna4</td>
+        </tr>
+        <tr>
+            <td style="border: solid 1px black;">Fila3 columna2</td>
+            <td style="border: solid 1px black;">Fila3 columna3</td>
+            <td style="border: solid 1px black;">Fila3 columna4</td>
+        </tr>
+    </table>
+    <h2>Mi tabla</h2>
+    <table style="border: solid 1px black;">
+        <tr >
+            <td style="border: solid 1px black;">Curso</td>
+            <td style="border: solid 1px black;" colspan="3">Día de la semana</td>
+        </tr>
+        <tr>
+            <td style="border: solid 1px black;"rowspan="2">Programación</td>
+            <td style="border: solid 1px black;">Lunes</td>
+            <td style="border: solid 1px black;">Fila2 columna3</td>
+            <td style="border: solid 1px black;">Fila2 columna4</td>
+        </tr>
+        <tr>
+            <td style="border: solid 1px black;">7:00pm</td>
+            <td style="border: solid 1px black;">Fila3 columna3</td>
+            <td style="border: solid 1px black;">Fila3 columna4</td>
+        </tr>
+    </table>
+<hr><h1>Formularios</h1>
+<form action="">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" name="nombre" required placeholder="Tu nombre"><br>
+    <label for="">Apellido:</label><br>
+    <input type="text" ><br>
+    <label for="">Correo:</label><br>
+    <input type="email" required placeholder="correo@ejemplo"><br>
+    <label for="">Contraseña:</label><br>
+    <input type="password" name="" id="" required><br>
+    <label for="">Telefono:</label><br>
+    <input type="tel" name="" id="" placeholder="+51 987654321"><br>
+    <label for="">Tipo de documento:</label><br>
+    <select name="" id="">
+        <option value="null">Seleccione una opción</option>
+        <option value="DNI">DNI</option>
+        <option value="CE">Carnet de extranjería</option>
+        <option value="PASSPORT">Pasaporte</option>
+    </select> <br>
+    <input type="text" name="docID"><br>
+    <label for="">Cantidad:</label><br>
+    <input type="number" name="" id=""><br>
+    <label for="">Busqueda de actas:</label><br>
+    <input type="search" placeholder="N° de acta"><input type="button" value="Buscar"><br>
+    <input type="checkbox" name="" id="" required>
+    <label for="">Acepta los terminos y condiciones</label><br>
+    <input type="radio" name="" id="">Condicones adicionales <br>
+    <br>
+    <label for="">Agrega tu comentario:</label><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+    <input type="button" value="Borrar">
+    <input type="submit" value="Enviar">
+    <button>Borrar todo</button>
+
+
+</form>
+
+</body>
+</html>
