@@ -1,0 +1,50 @@
+#exp{
+    font-size:large
+}
+strong{
+    font-weight: normal;
+}
+.destacado{
+    color: blue;
+}
+
+.orblight {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.padre{
+    color: #6c7;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hijo{
+    font-weight: bold;
+    color: orange;
+}
+body{
+    color: azure;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    background-image: url(https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/09/White-01-e1664190808110.jpg?resize=1000%2C750&ssl=1);
+}
+.supercaja{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+}
+#caja{
+    border: solid 15px green;
+    background-color: #ddd;
+    margin: 20px;
+    padding: 50px;
+}
+img{
+    margin-left: 15%;
+    margin-right: 15%;
+}
